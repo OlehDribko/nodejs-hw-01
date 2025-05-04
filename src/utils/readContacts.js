@@ -7,5 +7,6 @@ export const readContacts = async () => {
     return JSON.parse(contacts);
   } catch (error) {
     throw error;
+    return [];
   }
 };
